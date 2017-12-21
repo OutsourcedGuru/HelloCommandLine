@@ -1,6 +1,34 @@
 # HelloCommandLine
 A variety of language examples for creating the ubiquitous "Hello, World!" command line program.
 
+## HelloC
+Written using XCode in the C programming language, this is the minimal code you might find in a command line program and how to compile it.
+
+### Running the program
+```
+$ cd ~/oca/HelloCommandLine/HelloC/dist/
+$ ./HelloC
+Hello, C (OS X)
+```
+
+### Installation
+
+You would need to install XCode on your workstation in order to compile this project. Having done so, proceed.
+
+```
+$ cd HelloCommandLine/HelloC
+$ open HelloC.xcodeproj
+
+```
+
+![screen shot 2017-12-21 at 11 14 33 am](https://user-images.githubusercontent.com/15971213/34271234-406a94a6-e640-11e7-893e-4a5b6529cb46.png)
+
+1. Edit the `main.` program file, as necessary
+2. Press the Run button to compile/run it
+3. Select the `HelloC` entry under Products, copy the Full Path as seen in the Identity and Path panel on the right
+4. In Finder, press Shift-Cmd-G and paste everything from this path except for the filename
+5. Copy the `HelloC` program file to somewhere in your path for the sake of convenience when you're finished
+
 ## HelloObjectiveC
 Written using XCode in the Objective-C programming language, this is the minimal code you might find in a command line program and how to compile it.
 
