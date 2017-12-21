@@ -1,6 +1,19 @@
 # HelloCommandLine
 A variety of language examples for creating the ubiquitous "Hello, World!" command line program.
 
+## HelloJavascript
+Written using Visual Studio Code in the Javascript programming language, this is the minimal code you might find in a command line program and how to run it.
+
+### Running the program
+```
+$ cd ~/oca/HelloCommandLine/HelloJavascript/
+$ chmod +x HelloJavascript.js
+$ ./HelloJavascript.js
+Hello, Javascript
+```
+
+![screen shot 2017-12-21 at 11 41 38 am](https://user-images.githubusercontent.com/15971213/34272156-0d21a98c-e644-11e7-8f4d-50b61aef1b14.png)
+
 ## HelloGo
 Written using Visual Studio Code in the Go programming language, this is the minimal code you might find in a command line program and how to compile it.
 
