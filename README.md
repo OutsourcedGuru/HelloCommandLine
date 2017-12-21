@@ -138,6 +138,36 @@ $ open HelloCPlusPlus.xcodeproj
 4. In Finder, press Shift-Cmd-G and paste everything from this path except for the filename
 5. Copy the `HelloCPlusPlus` program file to somewhere in your path for the sake of convenience when you're finished
 
+## HelloC#
+Written using VS Code in the C# programming language and compiled using the MonoDevelop version of Xamarin, this is the minimal code you might find in a command line program and how to compile it. Note that running .Net programs in OS X isn't really *native* and this requires a wrapper program called `mono` which provides that framework. 
+
+### Running the program
+```
+$ cd ~/oca/HelloCommandLine/HelloC#/dist/
+$ mono HelloC#.exe
+Hello, C# (Mono/Xamarin)
+```
+
+### Installation
+
+You would need to install XCode and VS Code on your workstation plus the [Xamarin Studio IDE from MonoDevelop](http://www.monodevelop.com/download/) in order to compile this project. Note that you can code in either Xamarin or VS Code but only the former can compile these files. (Note that this is at least 1.5GB of files.) I will describe the code-in-VSCode version here.
+
+![Xamarin and Mono](https://user-images.githubusercontent.com/15971213/34277473-b8457080-e65a-11e7-8075-c7bcf9c962f4.png)
+
+Having installed the prerequisites and any necessary prompted Mono framework file(s) and closed all terminals that were previously open, proceed.
+
+```
+$ cd HelloCommandLine/HelloC#
+$ code .
+
+```
+
+![HelloC#](https://user-images.githubusercontent.com/15971213/34278486-fb1f3f4e-e65f-11e7-8a68-95669da8774c.png)
+
+1. Edit the `main.cs` program file, as necessary
+2. In the terminal area, enter `mcs -out:dist/HelloC#.exe main.cs` to compile the code
+5. Copy the `HelloC#.exe` program file to somewhere convenient for the sake of convenience when you're finished, noting that the `mono` command line needs to find it
+
 ## HelloSwift
 Written using XCode in the Swift programming language, this is the minimal code you might find in a command line program and how to compile it.
 
