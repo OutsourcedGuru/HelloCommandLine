@@ -1,6 +1,19 @@
 # HelloCommandLine
 A variety of language examples for creating the ubiquitous "Hello, World!" command line program.
 
+## HelloBashShell
+Written using Visual Studio Code in the bash shell programming language, this is the minimal code you might find in a command line program and how to run it.
+
+### Running the program
+```
+$ cd ~/oca/HelloCommandLine/HelloBashShell/
+$ chmod +x HelloBashShell.sh
+$ ./HelloBashShell.sh
+Hello, bash shell
+```
+
+![HelloBashShell](https://user-images.githubusercontent.com/15971213/34274569-0829fbdc-e64e-11e7-8308-bc8f9a03aeb0.png)
+
 ## HelloJavascript
 Written using Visual Studio Code in the Javascript programming language, this is the minimal code you might find in a command line program and how to run it.
 
@@ -12,7 +25,7 @@ $ ./HelloJavascript.js
 Hello, Javascript
 ```
 
-![screen shot 2017-12-21 at 11 41 38 am](https://user-images.githubusercontent.com/15971213/34272156-0d21a98c-e644-11e7-8f4d-50b61aef1b14.png)
+![HelloJavascript](https://user-images.githubusercontent.com/15971213/34272156-0d21a98c-e644-11e7-8f4d-50b61aef1b14.png)
 
 ## HelloGo
 Written using Visual Studio Code in the Go programming language, this is the minimal code you might find in a command line program and how to compile it.
@@ -34,7 +47,7 @@ $ code .
 
 ```
 
-![screen shot 2017-12-21 at 11 24 59 am](https://user-images.githubusercontent.com/15971213/34271713-60f097aa-e642-11e7-860d-cb6c42239314.png)
+![HelloGo](https://user-images.githubusercontent.com/15971213/34271713-60f097aa-e642-11e7-860d-cb6c42239314.png)
 
 1. Edit the `main.go` program file, as necessary
 2. In the Terminal window of VS Code, enter `go run main` to execute it
@@ -61,7 +74,7 @@ $ open HelloC.xcodeproj
 
 ```
 
-![screen shot 2017-12-21 at 11 14 33 am](https://user-images.githubusercontent.com/15971213/34271234-406a94a6-e640-11e7-893e-4a5b6529cb46.png)
+![HelloC](https://user-images.githubusercontent.com/15971213/34271234-406a94a6-e640-11e7-893e-4a5b6529cb46.png)
 
 1. Edit the `main.c` program file, as necessary
 2. Press the Run button to compile/run it
@@ -89,7 +102,7 @@ $ open HelloObjectiveC.xcodeproj
 
 ```
 
-![screen shot 2017-12-21 at 11 04 06 am](https://user-images.githubusercontent.com/15971213/34270894-c0a1470c-e63e-11e7-8f80-3bd82d437343.png)
+![HelloObjectiveC](https://user-images.githubusercontent.com/15971213/34270894-c0a1470c-e63e-11e7-8f80-3bd82d437343.png)
 
 1. Edit the `main.m` program file, as necessary
 2. Press the Run button to compile/run it
@@ -117,7 +130,7 @@ $ open HelloSwift.xcodeproj
 
 ```
 
-![screen shot 2017-12-21 at 10 34 34 am](https://user-images.githubusercontent.com/15971213/34269815-b003bc6c-e63a-11e7-9f8e-601054787e09.png)
+![HelloSwift](https://user-images.githubusercontent.com/15971213/34269815-b003bc6c-e63a-11e7-9f8e-601054787e09.png)
 
 1. Edit the `main.swift` program file, as necessary
 2. Press the Run button to compile/run it
