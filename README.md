@@ -1,6 +1,33 @@
 # HelloCommandLine
 A variety of language examples for creating the ubiquitous "Hello, World!" command line program.
 
+## HelloGo
+Written using Visual Studio Code in the Go programming language, this is the minimal code you might find in a command line program and how to compile it.
+
+### Running the program
+```
+$ cd ~/oca/HelloCommandLine/HelloGo/dist/
+$ ./HelloGo
+Hello, Go
+```
+
+### Installation
+
+You would need to install the [Go language compiler](https://golang.org) on your workstation in order to compile this project. Having done so, proceed.
+
+```
+$ cd HelloCommandLine/HelloGo
+$ code .
+
+```
+
+![screen shot 2017-12-21 at 11 24 59 am](https://user-images.githubusercontent.com/15971213/34271713-60f097aa-e642-11e7-860d-cb6c42239314.png)
+
+1. Edit the `main.go` program file, as necessary
+2. In the Terminal window of VS Code, enter `go run main` to execute it
+3. Again in the Terminal window of VS Code, enter `go build` under the project folder to build it into an executable program
+5. Copy the `HelloGo` program file to somewhere in your path for the sake of convenience when you're finished
+
 ## HelloC
 Written using XCode in the C programming language, this is the minimal code you might find in a command line program and how to compile it.
 
@@ -23,7 +50,7 @@ $ open HelloC.xcodeproj
 
 ![screen shot 2017-12-21 at 11 14 33 am](https://user-images.githubusercontent.com/15971213/34271234-406a94a6-e640-11e7-893e-4a5b6529cb46.png)
 
-1. Edit the `main.` program file, as necessary
+1. Edit the `main.c` program file, as necessary
 2. Press the Run button to compile/run it
 3. Select the `HelloC` entry under Products, copy the Full Path as seen in the Identity and Path panel on the right
 4. In Finder, press Shift-Cmd-G and paste everything from this path except for the filename
