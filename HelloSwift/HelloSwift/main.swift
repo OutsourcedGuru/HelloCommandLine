@@ -8,5 +8,5 @@
 
 import Foundation
 
-print("Hello, Swift (OS X)")
+print("Hello, Swift (OS X)\n")
 
