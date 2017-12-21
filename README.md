@@ -15,7 +15,7 @@ Hello, bash shell
 ![HelloBashShell](https://user-images.githubusercontent.com/15971213/34274569-0829fbdc-e64e-11e7-8308-bc8f9a03aeb0.png)
 
 ## HelloJavascript
-Written using Visual Studio Code in the Javascript programming language, this is the minimal code you might find in a command line program and how to run it.
+Written using Visual Studio Code in the Javascript programming language, this is the minimal code you might find in a command line program and how to run it. Here, I assume that you have Node already installed.
 
 ### Running the program
 ```
@@ -24,6 +24,8 @@ $ chmod +x HelloJavascript.js
 $ ./HelloJavascript.js
 Hello, Javascript
 ```
+
+If this doesn't run, trying running `which node` to determine where your Node is installed and then update the first line of the script as necessary.
 
 ![HelloJavascript](https://user-images.githubusercontent.com/15971213/34272156-0d21a98c-e644-11e7-8f4d-50b61aef1b14.png)
 
@@ -196,3 +198,19 @@ $ open HelloSwift.xcodeproj
 4. In Finder, press Shift-Cmd-G and paste everything from this path except for the filename
 5. Copy the `HelloSwift` program file to somewhere in your path for the sake of convenience when you're finished
 
+## HelloPython
+Written using Visual Studio Code in the [Python programming language](https://www.python.org/downloads/), this is the minimal code you might find in a command line program and how to run it. Having done so, proceed.
+
+### Running the program
+```
+$ cd ~/oca/HelloCommandLine/HelloPython
+$ chmod +x HelloPython.py
+$ ./HelloPython.py
+Hello, Python
+```
+
+### Installation
+
+You would need to install the [Python language](https://golang.org) on your workstation in order to run Python scripts. Since these scripts aren't compiled, just run them as shown above. 
+
+![screen shot 2017-12-21 at 3 39 00 pm](https://user-images.githubusercontent.com/15971213/34279338-2fe18084-e665-11e7-9e09-7926a6d0802b.png)
