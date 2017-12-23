@@ -84,14 +84,14 @@ $ open HelloC.xcodeproj
 4. In Finder, press Shift-Cmd-G and paste everything from this path except for the filename
 5. Copy the `HelloC` program file to somewhere in your path for the sake of convenience when you're finished
 
-## HelloSwift
-Written using XCode in the Swift programming language, this is the minimal code you might find in a command line program and how to compile it.
+## HelloObjectiveC
+Written using XCode in the ObjectiveC programming language, this is the minimal code you might find in a command line program and how to compile it.
 
 ### Running the program
 ```
-$ cd ~/oca/HelloCommandLine/HelloSwift/dist/
-$ ./HelloSwift
-Hello, Swift (OS X)
+$ cd ~/oca/HelloCommandLine/HelloObjectiveC/dist/
+$ ./HelloObjectiveC
+Hello, ObjectiveC (OS X)
 ```
 
 ### Installation
@@ -99,18 +99,18 @@ Hello, Swift (OS X)
 You would need to install XCode on your workstation in order to compile this project. Having done so, proceed.
 
 ```
-$ cd HelloCommandLine/HelloSwift
-$ open HelloSwift.xcodeproj
+$ cd HelloCommandLine/HelloObjectiveC
+$ open HelloObjectiveC.xcodeproj
 
 ```
 
-![HelloSwift](https://user-images.githubusercontent.com/15971213/34269815-b003bc6c-e63a-11e7-9f8e-601054787e09.png)
+![HelloObjectiveC](https://user-images.githubusercontent.com/15971213/34270894-c0a1470c-e63e-11e7-8f80-3bd82d437343.png)
 
-1. Edit the `main.swift` program file, as necessary
+1. Edit the `main.m` program file, as necessary
 2. Press the Run button to compile/run it
-3. Select the `HelloSwift` entry under Products, copy the Full Path as seen in the Identity and Path panel on the right
+3. Select the `HelloObjectiveC` entry under Products, copy the Full Path as seen in the Identity and Path panel on the right
 4. In Finder, press Shift-Cmd-G and paste everything from this path except for the filename
-5. Copy the `HelloSwift` program file to somewhere in your path for the sake of convenience when you're finished
+5. Copy the `HelloObjectiveC` program file to somewhere in your path for the sake of convenience when you're finished
 
 ## HelloCPlusPlus
 Written using XCode in the C++ programming language, this is the minimal code you might find in a command line program and how to compile it.
